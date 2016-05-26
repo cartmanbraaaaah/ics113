@@ -1,0 +1,162 @@
+
+#content{
+	margin-top: 0;
+}
+
+/*news header*/
+.news-header{
+	text-align:center;
+	width: 100%;
+}
+/*news header end*/
+
+/*side content*/
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+}
+/*side content end*/
+
+/*main content*/
+/*campus news*/
+#campus-container{
+	width: 46%;
+	display: table-cell;
+}
+
+/*headline*/
+#headline{
+	width: 100%;
+	background-color: #f1f1f1;
+	color: black;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	float:left;
+	font-family: 'Oxygen',sans-serif,Arial;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	display: block;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border-bottom: 7px solid #ffd700;
+}
+
+#headline a{
+	text-decoration: none;
+	color: black;
+}
+
+#headline a:hover{
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+#headline-picture{
+	width: 90%;
+	height: 90%;
+	margin: 5% auto 20px auto;
+	border: 1px solid #ffd700;
+}
+
+#headline-picture img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.title-header{
+	font-weight: bold;
+	font-size: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.headline-content{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+/*headline end*/
+
+/*other news*/
+#other1-picture{
+	width: 40%;
+	height: 50%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 1px solid #ffd700;
+	margin-bottom: 10px;
+}
+
+#other1-picture img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.title-other1{
+	font-weight: bold;
+	font-size: 25px;
+	width: 50%;
+	margin-top: 10px;
+	margin-right: 10px;
+	float:left;
+}
+
+#other1-content{
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	margin-right: 10px;
+}
+/*other news end*/
+/*campus news end*/
+
+/*media news*/
+#media-container{
+	width: 25.5%;
+	display: table-cell;
+}
+
+#other2-picture{
+	width: 90%;
+	height: 90%;
+	margin: 10px auto;
+	border: 1px solid #ffd700;
+}
+
+#other2-picture img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.title-other2{
+	font-weight: bold;
+	font-size: 20px;
+	width: 95%;
+	margin-left: 10px;
+	float:left;
+}
+
+.other2-content{
+	width: 95%;
+	margin: 5% auto 20px auto;
+	font-size: 14px;
+}
+/*media news end*/
+/*main content end*/
+
+
+
+
+

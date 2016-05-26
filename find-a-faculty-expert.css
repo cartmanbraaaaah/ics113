@@ -1,0 +1,149 @@
+/*side content*/
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+}
+/*side content end*/
+
+/*main content*/
+/*expert*/
+#expert-container{
+	width: 72%;
+	overflow: hidden;
+	border-left: 7px solid #1a1a1a;
+	display: table-cell;
+}
+
+.sort-by{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-family: 'Oxygen', sans-serif, Arial;
+}
+
+.sort-name-button, .sort-faculty-button{
+	padding: 6px 20px;
+	font-family: 'BebasNeue';
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.sort-name-button{
+	background-color: #1a1a1a;
+	color: #ffd700;
+}
+
+.sort-faculty-button{
+	background-color: #ffd700;
+	color: #1a1a1a;
+}
+
+.sort-name-button:hover, .sort-faculty-button:hover{
+	cursor:pointer;
+}
+
+/*sort*/
+#sort-by-name, #sort-by-faculty{
+	margin-top: 20px;
+}
+
+.name-button{
+	background-color: #ffd700;
+	color: #1a1a1a;
+	padding: 6px 20px;
+	font-family: 'BebasNeue';
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 100%;
+	border-bottom: 1px solid #ffd700;
+}
+
+.name-button:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.name-button:active{
+	background-color: #1a1a1a;
+	color: #ffd700;
+}
+
+.name-button:focus{
+	background-color: #1a1a1a;
+	color: #ffd700;
+}
+
+.a-sort-content, .b-sort-content, .c-sort-content,
+.d-sort-content, .e-sort-content, .f-sort-content,
+.g-sort-content, .h-sort-content, .i-sort-content,
+.j-sort-content, .k-sort-content, .l-sort-content,
+.m-sort-content, .n-sort-content, .o-sort-content,
+.p-sort-content, .q-sort-content, .r-sort-content,
+.s-sort-content, .t-sort-content, .u-sort-content,
+.v-sort-content, .w-sort-content, .x-sort-content,
+.y-sort-content, .z-sort-content, .theology-sort-content, 
+.philosophy-sort-content, .canon-sort-content, .civil-sort-content, 
+.ms-sort-content, .pharmacy-sort-content, .al-sort-content, 
+.engineering-sort-content, .education-sort-content, .science-sort-content, 
+.architecture-sort-content, .cba-sort-content, .religion-sort-content, 
+.graduate-sort-content, .music-sort-content, .nursing-sort-content, 
+.rs-sort-content, .cfad-sort-content, .amv-sort-content, 
+.cthm-sort-content, .ipea-sort-content, .iics-sort-content{
+	width: 100%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.sample-expert{
+	width: 100%;
+	list-style-type: none;
+}
+
+.sample-expert a{
+	text-decoration: none;
+}
+
+.sample-expert li{
+	border-bottom: 2px solid #ffd700;
+	color: #1a1a1a;
+	font-family: 'Oxygen', sans-serif, Arial;
+	overflow: hidden;
+}
+
+.sample-expert a li:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+#sample-picture{
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	float: left;
+	border: 1px solid #ffd700;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#sample-text{
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*sort end*/
+/*expert end*/
+/*main content end*/

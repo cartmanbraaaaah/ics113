@@ -1,0 +1,14 @@
+/*side content*/
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+}
+/*side content end*/
+
+/*calendar*/
+#calendar-container{
+	width: 72%;
+	border-left: 10px solid #1a1a1a;
+	display: table-cell;
+}
+/*calendar end*/

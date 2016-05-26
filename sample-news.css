@@ -1,0 +1,138 @@
+/*news*/
+#sample-news-container{
+	width: 70%;
+	overflow: hidden;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 2px solid #000000;
+	font-family: 'Oxygen',sans-serif,Arial;
+	display: table-cell;
+}
+
+#sample-news{
+	display: table;
+	table-layout: fixed;
+	border-spacing: 10px;
+	margin: auto;
+}
+
+/*left*/
+#sample-news-left{
+	width: 60%;
+	display: table-cell;
+	overflow: hidden;
+}
+#sample-news-picture{
+	width: 95%;
+	height: 90%;
+}
+
+#sample-news-picture img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#title{
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 40px;
+	width: 100%;
+}
+
+#subtitle{
+	font-size: 25px;
+}
+
+#sample-news-content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+/*left end*/
+
+/*right*/
+#sample-news-right{
+	width: 29%;
+	display: table-cell;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+/*source*/
+#source{
+	width: 100%;
+	background-color: #1a1a1a;
+	color: #ffd700;
+	font-family: 'BebasNeue';
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#source p:first-child{
+	margin-left: 10px;
+}
+#source p:nth-child(2){
+	margin-left: 10px;
+}
+/*source end*/
+
+/*share*/
+#share{
+	width: 97%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #1a1a1a;
+	height: 50px;
+	line-height: 60px;
+	padding-left: 10px;
+}
+/*share end*/
+
+/*related news*/
+#releated-news-container{
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.related-news{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Oxygen', sans-serif, Arial;
+	font-weight: bold;
+}
+
+.related-news a{
+	text-decoration: none;
+}
+
+.related-news li{
+	display: block;
+	color: #1a1a1a;
+	padding: 8px 0 8px 16px;
+	text-align: left;
+	border-bottom: 3px solid #ffd700;
+}
+
+.related-news a li:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+/*related news end*/
+/*right end*/
+/*sample news end*/
+
+/*side content*/
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+	vertical-align: top;
+}
+/*side content end*/

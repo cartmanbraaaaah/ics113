@@ -1,0 +1,30 @@
+#shoot-button{
+	background-color: #1a1a1a;
+	color: #ffd700;
+}
+
+#interview-button{
+	background-color: #ffd700;
+	color: #1a1a1a;
+}
+
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+	vertical-align: top;
+}
+
+/*login*/
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('font/BebasNeue.otf') format("opentype");
+}
+body {
+    background-color:#fff;
+    font-family:BebasNeue;
+}
+
+.logo2 {
+    width: 213px;
+    height: 36px;	
+}

@@ -1,0 +1,91 @@
+#main-content-container{
+	display: table-cell;
+	width: 100%;
+}
+
+#main-content{
+	display: table;
+	table-layout: fixed;
+	border-spacing: 10px 0;
+	width: 100%;
+	margin-top: 5%;
+}
+
+#categories{
+	display: table-cell;
+	width: 15%;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#content-header{
+	margin-bottom: 20px;
+}
+
+#content-header2{
+	width: 100%;
+	height: 50px;
+	background-color: #1a1a1a;
+	color: #ffd700;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'BebasNeue';
+	line-height: 50px;
+}
+
+#line{
+	margin-bottom: 20px;
+}
+
+#categories input{
+	width: 95%;
+	margin: 0 auto 20px auto;
+	
+}
+
+#categories input:focus{
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(255,217,0,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(255,217,0,1);
+	box-shadow: 0px 0px 10px 0px rgba(255,217,0,1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+.categories-list, .albums{
+	list-style-type: none;
+	font-family: 'Oxygen', sans-serif, Arial;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.categories-list a{
+	text-decoration: none;
+}
+
+.categories-list li{
+	display: block;
+	color: #1a1a1a;
+	padding: 8px 0 8px 16px;
+	text-align: left;
+	border-bottom: 3px solid #ffd700;
+	font-size: 12px;
+}
+
+.categories-list a li:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+#image-slider{
+	display: table-cell;
+	width: 80%;
+	overflow: hidden;
+	vertical-align: top;
+}

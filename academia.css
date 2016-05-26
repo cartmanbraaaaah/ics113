@@ -1,0 +1,56 @@
+/*side content*/
+#side-content-container{
+	width: 20%;
+	display: table-cell;
+}
+/*side content end*/
+
+/*main content*/
+#main-content-container{
+	width: 73%;
+	display: table-cell;
+}
+
+#main-content{
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: 'Oxygen', sans-serif, Arial;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.academia-list{
+	list-style-type: none;
+}
+
+.academia-list li{
+	margin: 20px;
+}
+
+.academia-list a{
+	text-decoration: none;
+}
+
+.academia-button{
+	width: 700px;
+	height: 150px;
+	color: white;
+	font-family: 'BebasNeue';
+	font-size: 40px;
+	text-align: center;
+	line-height: 150px;
+	border: 1px solid #1a1a1a;
+	text-shadow: 2px 2px #1a1a1a;
+	margin: 0 auto;
+	background-color: #ffd700;
+}
+
+.academia-button:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}

@@ -1,0 +1,49 @@
+#content-header{
+	background-color: #ffd700;
+	color: #1a1a1a;
+}
+#latest-submissions{
+	background-color: rgba(26, 26, 26, 1);
+	padding-bottom: 10px;
+}
+
+.latest-submissions-list{
+	list-style-type: none;
+	margin: 20px 0 0 20px;
+}
+
+.latest-submissions-list li a{
+	text-decoration: none;
+	color: #ffd700;
+}
+
+.latest-submissions-list li a:hover{
+	text-decoration: underline;
+	color: white;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+.latest-submissions-list li{
+	font-family: 'Oxygen', sans-serif, Arial;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#sample-output{
+	font-family: 'Oxygen', sans-serif, Arial;
+	font-size: 20px;
+	color: white;
+	background: url('../img/texture1.png');
+	padding: 20px 20px 10px 20px;
+}
+
+#sample-output p{
+	margin-bottom: 10px;
+}
+
+.attribute{
+	color: #ffd700;
+}

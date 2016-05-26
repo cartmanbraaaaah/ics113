@@ -1,0 +1,104 @@
+/*global*/
+#sample-bio-header, #sample-interview-header, #sample-photo-header{
+	font-family: 'BebasNeue';
+	height: 50px;
+	font-size: 29px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	padding: 0 10px 0 10px;
+}
+
+#sample-bio-header:hover, #sample-interview-header:hover, #sample-photo-header:hover{
+	cursor: pointer;
+}
+
+#sample-interview-header, #sample-photo-header{
+	background-color: #ffd700;
+	color: #1a1a1a;
+}
+
+#sample-bio-content, #sample-interview-content, #sample-photo-content{
+	float: left;
+	width: 100%;
+	background-color: #1a1a1a;
+	color: #ffd700;
+	overflow: hidden;
+}
+
+#sample-interview-content, #sample-photo-content{
+	background: url('../img/texture1.png');
+}
+/*global end*/
+
+/*main content*/
+#main-container{
+	margin-top: 5%;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 70%;
+	overflow: hidden;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 2px solid #1a1a1a;
+	font-family: 'Oxygen',sans-serif,Arial;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	float: left;
+	margin-bottom: 5%;
+	padding-right: 10px;
+}
+
+#sample-picture{
+	background-color: black;
+	width: 200px;
+	height: 200px;	
+	float: left;
+}
+
+#sample-text{
+	float: left;
+	margin-left: 10px;
+}
+
+.name{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+/*info*/
+#info{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#sample-bio-header{
+	background-color: #1a1a1a;
+	color: #ffd700;
+}
+
+#sample-bio-text{
+	margin: 10px;
+}
+
+#sample-bio-content ul{
+	list-style-type: none;
+}
+
+/*info end*/
+/*main content end*/
+
+/*side content*/
+#side-content-container{
+	float: left;
+	width: 20%;
+	margin-top: 5%;
+	margin-right: 20px;
+	margin-bottom: 5%;
+}
+/*side content end*/

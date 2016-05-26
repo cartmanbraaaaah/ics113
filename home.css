@@ -1,0 +1,124 @@
+#events, #announcements{
+	width: 100%;
+	overflow: hidden;
+	background: rgba(0,0,0, 0.8);
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#announcements{
+	text-align: center;
+}
+
+#announcements{
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#events a{
+	text-decoration: none;
+}
+
+.events-links:hover, .events-links:hover .date-home-container{
+	background: rgba(255, 215, 0, 1);
+	color: #1a1a1a;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
+.events-links:hover .date-home-container{
+	border: 1px solid #1a1a1a;
+}
+
+.events-header, .announcements-header{
+	font-family: 'BebasNeue';
+	font-size: 72px;
+	text-align: center;
+	color: #ffd700;
+}
+
+.announcements-header{
+	color: #1a1a1a;
+}
+
+.announcements-container{
+	list-style-type: none;
+	font-family: 'BebasNeue';
+}
+
+.announcements-container a{
+	text-decoration: none;
+}
+
+.announcements-links{
+	color: #1a1a1a;
+	font-size: 25px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#announcements-holder{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
+#events-holder{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.events-links{
+	display: inline-block;
+	color: white;
+	font-family: 'Oxygen', sans-serif, Arial;
+	font-size: 12px;
+	padding: 5px;
+	border-right: 2px solid #ffd700;
+}
+
+.date-home-container{
+	float: left;
+	width: 70px;
+	height: 90px;
+	text-align: center;
+	color: white;
+	margin-right: 10px;
+	padding-top: 3%;
+	font-family: 'BebasNeue';
+	font-size: 40px;
+	padding-bottom: 3%;
+	border: 1px solid white;
+}
+
+.title{
+	font-family: 'BebasNeue';
+	text-decoration: bold;
+	font-size: 40px;
+}
+
+.calendar-link{
+	font-family: 'BebasNeue';
+	font-size: 50px;
+	text-align: center;
+	margin: 20px auto;
+	width: 300px;
+	height: 80px;
+	background-color: #ffd700;
+	line-height: 80px;
+}
+
+.calendar-link a{
+	color: #1a1a1a;
+}
+.calendar-link:hover,.calendar-link a:hover{
+	background-color: #1a1a1a;
+	color: #ffd700;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+
